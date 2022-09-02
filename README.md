@@ -1,1 +1,2 @@
-# zmk-config
+# TaikoHub Dactyl Manuform Keyboard: zmk-config file
+

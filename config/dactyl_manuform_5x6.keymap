@@ -18,9 +18,9 @@
                 &kp GRAVE  &kp N1   &kp W  &kp E     &kp R      &kp T                &kp Z     &kp U  &kp I     &kp O       &kp N0   &kp MINUS
                 &kp TAB    &kp Q    &kp S  &kp D     &kp F      &kp G                &kp H     &kp J  &kp K     &kp L       &kp P    &kp PLUS
                 &kp PG_UP  &kp A    &kp X  &kp C     &kp V      &kp B                &kp B     &kp N  &kp M     &kp COMMA   &kp SEMI &kp SQT
-                &kp PG_DN  &kp Z    &kp V  &kp LCTRL                                                  &kp LBKT  &kp RBKT    &kp DOT  &kp FSLH
-                                           &kp Z &kp LALT   &kp BSPC                 &kp DEL   &kp RALT  &kp ENTER
-                                                     &kp LSHIFT &kp ESC              &kp LWIN  &kp BSPC
+                &kp PG_DN  &kp Z    &kp V  &kp LSHIFT                                                 &kp LBKT  &kp RBKT    &kp DOT  &kp FSLH
+                                           &kp Z &kp LALT   &kp BSPC                 &kp RALT   &kp LWIN  &kp SPACE
+                                                     &kp LCTRL &kp ESC               &kp ENTER  &kp BSPC
             >;
         };
 

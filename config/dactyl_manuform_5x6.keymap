@@ -19,7 +19,7 @@
                 &kp TAB    &kp Q    &kp S  &kp D     &kp F      &kp G                &kp H     &kp J  &kp K     &kp L       &kp P    &kp PLUS
                 &kp LCTRL  &kp A    &kp X  &kp C     &kp V      &kp B                &kp B     &kp N  &kp M     &kp COMMA   &kp SEMI &kp SQT
                 &kp LSHIFT &kp Z    &kp V  &kp BSLH                                            &kp LBKT  &kp RBKT    &kp DOT  &kp FSLH
-                                           &kp LCTRL &kp LGUI   &kp BSPC             &kp RCTRL        &kp RALT  &kp ENTER
+                                           &kp LCTRL &kp LGUI   &kp BSPC             &kp RCTRL &kp RALT  &kp ENTER
                                                      &kp LSHIFT &kp LSHIFT           &kp RGUI  &kp RSHIFT
             >;
         };

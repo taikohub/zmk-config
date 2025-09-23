@@ -24,11 +24,11 @@
 
         lower_layer {
             bindings = <
-                                         &kp F2 &kp F3 &kp F4 &kp F5          &kp F6 &kp F7   &kp F8   &kp F9 
-                &kp F12           &kp F1 &trans &trans &trans &trans          &trans &trans   &trans   &trans &kp F10   &kp F11
-                &trans            &trans &trans &trans &trans &trans          &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-                &sys_reset        &trans &trans &trans &trans &trans          &trans &trans   &trans   &trans &trans    &sys_reset
-                &bootloader_reset &trans &trans &trans                                        &trans   &trans &trans    &bootloader_reset
+                                   &kp F2 &kp F3 &kp F4 &kp F5          &kp F6 &kp F7   &kp F8   &kp F9 
+                &kp F12     &kp F1 &trans &trans &trans &trans          &trans &trans   &trans   &trans &kp F10   &kp F11
+                &trans      &trans &trans &trans &trans &trans          &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+                &sys_reset  &trans &trans &trans &trans &trans          &trans &trans   &trans   &trans &trans    &sys_reset
+                &bootloader &trans &trans &trans                                        &trans   &trans &trans    &bootloader
                                                 &trans &trans &trans          &trans &trans   &trans
                                                        &trans &trans          &trans &trans
             >;

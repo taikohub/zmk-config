@@ -17,8 +17,8 @@
                 &kp TAB    &kp Q  &kp S  &kp D     &kp F     &kp G                         &kp H    &kp J    &kp K      &kp L   &kp P    &kp EQUAL
                 &kp CAPS   &kp A  &kp X  &kp C     &kp V     &kp B                         &kp N    &kp M    &kp COMMA  &kp DOT &kp SEMI &kp SQT
                 &kp LSHIFT &kp V  &kp V  &kp GRAVE                                                  &kp LBKT &kp RBKT  &kp FSLH &kp BSLH
-                                         &mt LALT ESC &kp LWIN &lt LWR BSPC                &lt LWR BSPC &kp RWIN &mt RALT ENTER
-                                              &mt RSHIFT SPACE &mt LCTRL ENTER             &mt LCTRL SPACE &mt RSHIFT ESC
+                                         &mt LALT ESC &kp LWIN &lt LWR BSPC                &lt LWR BSPC &kp RWIN &mt RALT ESC
+                                              &mt RSHIFT SPACE &mt LCTRL ENTER             &mt LCTRL ENTER &mt RSHIFT SPACE
             >;
         };
 
@@ -30,7 +30,7 @@
                 &sys_reset  &kp K_PREV &kp PSCRN &kp PAUSE_BREAK &trans  &trans           &trans &trans   &trans   &trans &trans    &sys_reset
                 &bootloader &trans  &trans       &trans                                                   &trans   &trans &trans    &bootloader
                                                  &trans  &trans &trans                    &trans &trans   &trans
-                                                         &trans &trans                    &trans &trans
+                                                         &trans &trans                    &trans &trans Hallo mein Name ist Mario 
             >;
         };
     };

@@ -5,8 +5,6 @@
 
 #define DEFAULT 0
 #define LWR 1
-#define RSE 2
-#define ADJ 3
 
 / {
     keymap {
@@ -14,53 +12,25 @@
 
         default_layer {
             bindings = <
-                                    &kp N2 &kp N3    &kp N4     &kp N5               &kp N6    &kp N7  &kp N8   &kp N9
-                &kp GRAVE  &kp N1   &kp W  &kp E     &kp R      &kp T                &kp Y     &kp U  &kp I     &kp O       &kp N0   &kp MINUS
-                &kp TAB    &kp Q    &kp S  &kp D     &kp F      &kp G                &kp H     &kp J  &kp K     &kp L       &kp P    &kp EQUAL
-                &kp PG_UP  &kp A    &kp X  &kp C     &kp V      &kp B                &kp B     &kp N  &kp M     &kp COMMA   &kp SEMI &kp SQT
-                &kp PG_DN  &kp Z    &kp V  &kp SPACE                                                  &kp LBKT  &kp RBKT    &kp DOT  &kp FSLH
-                                           &kp Z &kp LALT   &kp BSPC                 &kp RALT  &kp LWIN  &kp LSHIFT
-                                                 &kp ENTER &kp ESC                   &kp LCTRL  &kp BSPC
+                                  &kp N2 &kp N3    &kp N4    &kp N5                  &kp N6   &kp N7   &kp N8     &kp N9
+                &kp GRAVE  &kp N1 &kp W  &kp E     &kp R     &kp T                   &kp Y    &kp U    &kp I      &kp O    &kp N0   &kp MINUS
+                &kp TAB    &kp Q  &kp S  &kp D     &kp F     &kp G                   &kp H    &kp J    &kp K      &kp L    &kp P    &kp EQUAL
+                &kp CAPS   &kp A  &kp X  &kp C     &kp V     &kp B                   &kp N    &kp M    &kp COMMA  &kp SEMI &kp SQT &kp BSLH
+                &kp LSHIFT &kp Z  &kp V  &kp Z                                                &kp LBKT &kp RBKT   &kp DOT  &kp FSLH
+                                         &mt LALT ENTER &mt LWIN SPACE &mt LCTRL BSPC      &mt RCTRL BSPC &mt RWIN SPACE &mt RALT ENTER
+                                                  &sk LSHIFT     &mo LWR             &mo LWR   &sk RSHIFT
             >;
         };
 
         lower_layer {
             bindings = <
-                &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                &kp F6 &kp F7   &kp F8   &kp F9 &kp F10   &kp F11
-                &trans  &trans &trans &trans &trans &trans                &trans &trans   &trans   &trans &trans    &trans
-                &trans  &trans &trans &trans &trans &trans                &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-                &trans  &trans &trans &trans &trans &trans                &trans &trans   &trans   &trans &trans    &trans
-                               &trans &trans                                              &trans &trans
-                                             &trans &trans                &trans &mo ADJ
-                                             &trans &trans                &trans &trans
-                                             &trans &trans                &trans &trans
+                                    &kp F2 &kp F3 &kp F4 &kp F5          &kp F6 &kp F7   &kp F8   &kp F9 
+                &kp F12      &kp F1 &trans &trans &trans &trans          &trans &trans   &trans   &trans &kp F10   &kp F11
+                &trans       &trans &trans &trans &trans &trans          &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+                &reset       &trans &trans &trans &trans &trans          &trans &trans   &trans   &trans &trans    &reset
+                &bootloader  &trans &trans &trans                                        &trans   &trans &trans    &bootloader
+                                           &trans &trans &trans          &trans &trans   &trans
+                                                  &trans &trans          &trans &trans
             >;
         };
-
-        raise_layer {
-            bindings = <
-                &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                &kp F6 &kp F7   &kp F8   &kp F9 &kp F10   &kp F11
-                &trans  &trans &trans &trans &trans &trans                &trans &trans   &kp LNLCK &kp INS &kp SLCK &kp K_MUTE
-                &trans  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp LBKT       &kp RBKT &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp K_VOL_UP
-                &trans  &trans &trans &trans &trans &trans                &trans &trans &trans &trans &trans &kp K_VOL_DN
-                               &trans &trans                                            &trans &trans
-                                             &mo ADJ &trans               &trans &trans
-                                             &trans  &trans               &trans &trans
-                                             &trans  &trans               &trans &trans
-            >;
-        };
-
-        adjust_layer {
-            bindings = <
-                &none &bt BT_SEL 0 &out OUT_BLE &none &none  &none            &none       &none &none &none &none &none
-                &none &bt BT_SEL 1 &out OUT_USB &none &none  &none            &none       &none &none &none &none &none
-                &none &bt BT_SEL 2 &none        &none &none  &none            &none       &none &none &none &none &none
-                &none &bt BT_SEL 3 &bt BT_CLR   &none &none  &none            &none &none &none &none &none &none
-                                   &none        &none                                            &none &none
-                                                      &none &none             &none &none
-                                                      &none &none             &none &none
-                                                      &none &none             &none &none
-            >;
-        };
-    };
 };

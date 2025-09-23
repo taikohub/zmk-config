@@ -16,7 +16,7 @@
                 &kp ESC    &kp N1 &kp W  &kp E     &kp R     &kp T                       &kp Y    &kp U    &kp I      &kp O   &kp N0   &kp MINUS
                 &kp TAB    &kp Q  &kp S  &kp D     &kp F     &kp G                       &kp H    &kp J    &kp K      &kp L   &kp P    &kp EQUAL
                 &kp CAPS   &kp A  &kp X  &kp C     &kp V     &kp B                       &kp N    &kp M    &kp COMMA  &kp DOT &kp SEMI &kp SQT
-                &kp LSHIFT &mt K_PASTE K_COPY &kp V  &kp GRAVE                                             &kp LBKT &kp RBKT  &kp FSLH &kp BSLH
+                &kp LSHIFT &mt V  &kp V  &kp GRAVE                                             &kp LBKT &kp RBKT  &kp FSLH &kp BSLH
                                          &mt LALT ENTER &mt LWIN SPACE &mt LCTRL BSPC    &mt RCTRL BSPC &mt RWIN SPACE &mt RALT ENTER
                                                   &sk LSHIFT     &mo LWR                 &mo LWR   &sk RSHIFT
             >;

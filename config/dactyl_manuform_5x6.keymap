@@ -26,8 +26,8 @@
             bindings = <
                                     &kp F2       &kp F3       &kp F4  &kp F5              &kp F6 &kp F7   &kp F8   &kp F9 
                 &kp F12     &kp F1  &trans       &trans       &trans  &trans              &trans &trans   &trans   &trans &kp F10   &kp F11
-                &K_PP       &trans  &kp K_VOL_UP &K_VOL_DN    &K_NEXT &K_MUTE             &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-                &sys_reset  &K_PREV &PSCRN       &PAUSE_BREAK &trans  &trans              &trans &trans   &trans   &trans &trans    &sys_reset
+                &kp K_PP    &trans  &kp K_VOL_UP &kp K_VOL_DN &kp K_NEXT &kp K_MUTE       &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+                &sys_reset  &kp K_PREV &kp PSCRN &kp PAUSE_BREAK &trans  &trans              &trans &trans   &trans   &trans &trans    &sys_reset
                 &bootloader &trans  &trans       &trans                                                &trans   &trans &trans    &bootloader
                                                               &trans  &trans &trans       &trans &trans   &trans
                                                                       &trans &trans       &trans &trans

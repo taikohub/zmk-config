@@ -17,8 +17,8 @@
                 &kp TAB    &kp Q  &kp S  &kp D     &kp F     &kp G                         &kp H    &kp J    &kp K      &kp L   &kp P    &kp EQUAL
                 &kp CAPS   &kp A  &kp X  &kp C     &kp V     &kp B                         &kp N    &kp M    &kp COMMA  &kp DOT &kp SEMI &kp SQT
                 &kp LSHIFT &kp Z  &kp V  &kp GRAVE                                                  &kp LBKT &kp RBKT  &kp FSLH &kp BSLH
-                                         &mt LALT ESC &mt RSHIFT SPACE &mt LCTRL ENTER     &mt LCTRL ENTER &mt RSHIFT SPACE &mt RALT ESC
-                                              &kp LWIN &lt LWR BSPC                        &lt LWR BSPC    &kp RWIN
+                                         &mt LALT ESC &mt RSHIFT SPACE &lt LWR BSPC     &lt LWR BSPC &mt RSHIFT SPACE &mt RALT ESC
+                                              &kp LWIN &mt LCTRL ENTER                        &mt LCTRL ENTER &kp RWIN
             >;
         };
 

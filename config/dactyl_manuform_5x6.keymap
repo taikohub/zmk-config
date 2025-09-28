@@ -28,7 +28,7 @@
                 &kp F12     &kp F1  &trans       &trans       &trans  &trans              &trans &trans   &trans   &trans &kp F10   &kp F11
                 &kp K_MUTE &trans &kp K_PP &kp K_VOL_UP &kp K_VOL_DN &kp K_NEXT           &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans 
                 &sys_reset  &kp K_PREV &kp PSCRN &kp PAUSE_BREAK &trans  &trans           &trans &trans   &trans   &trans &trans    &sys_reset
-                &bootloader &trans  &trans       &trans                                                   &trans   &trans &trans    &bootloader
+                &bootloader &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                                      &trans   &trans &trans    &bootloader
                                                  &trans  &trans &trans                    &trans &trans   &trans
                                                          &trans &trans                    &trans &trans
             >;
